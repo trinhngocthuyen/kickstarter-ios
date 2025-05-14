@@ -1,6 +1,7 @@
 import AppboyKit
 import FBSDKCoreKit
 import Firebase
+import FirebaseRemoteConfig
 import Foundation
 #if DEBUG
   @testable import KsApi

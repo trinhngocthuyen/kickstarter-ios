@@ -202,7 +202,7 @@ GEM
     mini_mime (1.1.5)
     multi_json (1.15.0)
     multipart-post (2.4.1)
-    nanaimo (0.3.0)
+    nanaimo (0.4.0)
     nap (1.1.0)
     naturally (2.2.1)
     nkf (0.2.0)
@@ -212,6 +212,7 @@ GEM
     open4 (1.3.4)
     optparse (0.5.0)
     os (1.1.4)
+    parallel (1.27.0)
     plist (3.7.1)
     public_suffix (6.0.1)
     rake (13.2.1)
@@ -221,8 +222,7 @@ GEM
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
     retriable (3.1.2)
-    rexml (3.3.6)
-      strscan
+    rexml (3.4.1)
     rouge (2.0.7)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
@@ -238,7 +238,6 @@ GEM
     simctl (1.6.10)
       CFPropertyList
       naturally
-    strscan (3.1.0)
     terminal-notifier (2.0.0)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
@@ -251,16 +250,20 @@ GEM
     uber (0.1.0)
     unicode-display_width (2.5.0)
     word_wrap (1.0.0)
+    xccache (0.0.1)
+      claide
+      parallel
+      xcodeproj (>= 1.26.0)
     xcode-install (2.8.1)
       claide (>= 0.9.1)
       fastlane (>= 2.1.0, < 3.0.0)
-    xcodeproj (1.25.0)
+    xcodeproj (1.27.0)
       CFPropertyList (>= 2.3.3, < 4.0)
       atomos (~> 0.1.3)
       claide (>= 1.0.2, < 2.0)
       colored2 (~> 3.1)
-      nanaimo (~> 0.3.0)
-      rexml (>= 3.3.2, < 4.0)
+      nanaimo (~> 0.4.0)
+      rexml (>= 3.3.6, < 4.0)
     xcpretty (0.3.0)
       rouge (~> 2.0.7)
     xcpretty-travis-formatter (1.0.1)
@@ -278,6 +281,7 @@ DEPENDENCIES
   fastlane-plugin-aws_s3
   json
   plist
+  xccache
   xcode-install
 
 BUNDLED WITH
