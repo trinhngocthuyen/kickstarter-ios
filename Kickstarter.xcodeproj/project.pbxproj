@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1694,6 +1694,14 @@
 		E1CFB5972D8E0107004AB0D6 /* Category+FilterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CFB5962D8E0107004AB0D6 /* Category+FilterCategory.swift */; };
 		E1DBB2372DAEBCE10050733F /* SearchFiltersHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DBB2352DAEBCB60050733F /* SearchFiltersHeaderViewTests.swift */; };
 		E1EEED292B684AA7009976D9 /* PKCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEED282B684AA7009976D9 /* PKCE.swift */; };
+		F50E15732DE999B800C4C5B2 /* Kickstarter-iOS.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = 58FA285EC17F5A43A754935A /* Kickstarter-iOS.xccache */; };
+		F50E15742DE999B800C4C5B2 /* Kickstarter-Framework-iOS.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = 71DED5B4C7739C01912DFA04 /* Kickstarter-Framework-iOS.xccache */; };
+		F50E15752DE999B800C4C5B2 /* Library-iOS.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = 4752A41902914C953D9B4760 /* Library-iOS.xccache */; };
+		F50E15762DE999B800C4C5B2 /* KsApi.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = D543EF7280690D783435854C /* KsApi.xccache */; };
+		F50E15772DE999B800C4C5B2 /* RichPushNotifications.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = 47F2E53F238AEA9BF716F161 /* RichPushNotifications.xccache */; };
+		F50E15782DE999B800C4C5B2 /* Library-iOSTests.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = A1DE4377929143857C8B097A /* Library-iOSTests.xccache */; };
+		F50E15792DE999B800C4C5B2 /* Library-Keychain-iOSTests.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = B99A089743F01A01FF3C6DC6 /* Library-Keychain-iOSTests.xccache */; };
+		F50E157A2DE999B800C4C5B2 /* Kickstarter-Framework-iOSTests.xccache in Frameworks */ = {isa = PBXBuildFile; productRef = 6943856B2B6CD2C9A40A5D33 /* Kickstarter-Framework-iOSTests.xccache */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2167,7 +2175,7 @@
 		39F48E242D5521BE00090D6C /* AlertBannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerTests.swift; sourceTree = "<group>"; };
 		39F48E262D55222900090D6C /* RestrictedCreatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedCreatorViewControllerTests.swift; sourceTree = "<group>"; };
 		3D1363951F0191FB00B53420 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		40CBD760B8514B1B0CD02F60 /* xccache.lock */ = {isa = PBXFileReference; includeInIndex = 1; path = xccache.lock; sourceTree = "<group>"; };
+		40CBD760B8514B1B0CD02F60 /* xccache.lock */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = xccache.lock; sourceTree = "<group>"; };
 		4705D8972742E20900A13BBE /* ProjectHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderCell.swift; sourceTree = "<group>"; };
 		471235F6274450AC0035527F /* ProjectPamphletMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectPamphletMainCell.xib; sourceTree = "<group>"; };
 		471235F8274457460035527F /* ProjectPamphletSubpageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectPamphletSubpageCell.xib; sourceTree = "<group>"; };
@@ -2493,7 +2501,7 @@
 		8001D4971D41568C009E6667 /* UpdateDraftStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDraftStyles.swift; sourceTree = "<group>"; };
 		8016BFE71D0F582D00067956 /* String+Whitespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Whitespace.swift"; sourceTree = "<group>"; };
 		802800571C88F64D00141235 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Base.xcconfig; path = Configs/Base.xcconfig; sourceTree = "<group>"; };
-		803D66EB9FA6B44E7A6CD3D6 /* xccache.yml */ = {isa = PBXFileReference; includeInIndex = 1; path = xccache.yml; sourceTree = "<group>"; };
+		803D66EB9FA6B44E7A6CD3D6 /* xccache.yml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.yaml; path = xccache.yml; sourceTree = "<group>"; };
 		8053D3101D3848A3007B85DB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		809F8B651D08B4FF005BADD9 /* UpdateDraftViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDraftViewModel.swift; sourceTree = "<group>"; };
 		80AB97B61D6281D60051C9D1 /* Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Debug.entitlements; sourceTree = "<group>"; };
@@ -3400,7 +3408,7 @@
 		D7E20EA5228B4AC200BA61A0 /* PledgeCTAContainerViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PledgeCTAContainerViewViewModel.swift; sourceTree = "<group>"; };
 		E10675632DA58AB4007CCA24 /* PillButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButtons.swift; sourceTree = "<group>"; };
 		E10675652DA5A6E9007CCA24 /* SearchFilterPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterPill.swift; sourceTree = "<group>"; };
-		E10805C86E498571BA54B9E4 /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Package.swift; path = xccache/packages/umbrella/Package.swift; sourceTree = "<group>"; };
+		E10805C86E498571BA54B9E4 /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Package.swift; path = xccache/packages/proxy/Package.swift; sourceTree = "<group>"; };
 		E10841682DC26753000E4F17 /* ObservedSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedSignal.swift; sourceTree = "<group>"; };
 		E108416A2DC27F14000E4F17 /* SearchDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataSourceTests.swift; sourceTree = "<group>"; };
 		E108416D2DCA6AC8000E4F17 /* SearchFiltersCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFiltersCategory.swift; sourceTree = "<group>"; };
@@ -3499,6 +3507,10 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
 			name = xcconfigs;
 			path = xccache/packages/xcconfigs;
 			sourceTree = "<group>";
@@ -3506,6 +3518,10 @@
 		46F3E7822B8BC9CB5A253475 /* local-packages */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
 			);
 			name = "local-packages";
 			path = xccache/packages/local;
@@ -3518,6 +3534,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15752DE999B800C4C5B2 /* Library-iOS.xccache in Frameworks */,
 				D0D10BB81EEB394D005EBAD0 /* KsApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3526,6 +3543,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15782DE999B800C4C5B2 /* Library-iOSTests.xccache in Frameworks */,
 				19A666632A0488F500708F8B /* Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3534,6 +3552,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15742DE999B800C4C5B2 /* Kickstarter-Framework-iOS.xccache in Frameworks */,
 				A76127C01C93100C00EDCCB9 /* Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3542,6 +3561,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15732DE999B800C4C5B2 /* Kickstarter-iOS.xccache in Frameworks */,
 				A73924001D27230B004524C3 /* Kickstarter_Framework.framework in Frameworks */,
 				D0B45B6B1EF858C00020A8DA /* KsApi.framework in Frameworks */,
 			);
@@ -3551,6 +3571,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E157A2DE999B800C4C5B2 /* Kickstarter-Framework-iOSTests.xccache in Frameworks */,
 				A724BA641D2BFCC80041863C /* Kickstarter_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3559,6 +3580,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15762DE999B800C4C5B2 /* KsApi.xccache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3566,6 +3588,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15772DE999B800C4C5B2 /* RichPushNotifications.xccache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3573,6 +3596,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50E15792DE999B800C4C5B2 /* Library-Keychain-iOSTests.xccache in Frameworks */,
 				E113BD852B7D255000D3A809 /* Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -8054,7 +8078,7 @@
 			);
 			mainGroup = A7E06C701C5A6EB300EBDCC2;
 			packageReferences = (
-				7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */,
+				7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */,
 			);
 			productRefGroup = A7E06C7A1C5A6EB300EBDCC2 /* Products */;
 			projectDirPath = "";
@@ -8319,7 +8343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"${SRCROOT}/KsApi/graphql-schema.json\" --namespace=GraphAPI GraphAPI.swift\n";
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"${SRCROOT}/KsApi/graphql-schema.json\" --namespace=GraphAPI GraphAPI.swift || true\n";
 		};
 		E1F63FC22BA0A419007B2B2B /* Make list of GraphQL dependencies */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -11624,56 +11648,56 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */ = {
+		7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = xccache/packages/umbrella;
+			relativePath = xccache/packages/proxy;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		4752A41902914C953D9B4760 /* Library-iOS.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Library-iOS.xccache";
 		};
 		47F2E53F238AEA9BF716F161 /* RichPushNotifications.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = RichPushNotifications.xccache;
 		};
 		58FA285EC17F5A43A754935A /* Kickstarter-iOS.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Kickstarter-iOS.xccache";
 		};
 		6943856B2B6CD2C9A40A5D33 /* Kickstarter-Framework-iOSTests.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Kickstarter-Framework-iOSTests.xccache";
 		};
 		71DED5B4C7739C01912DFA04 /* Kickstarter-Framework-iOS.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Kickstarter-Framework-iOS.xccache";
 		};
 		89E4A7FBB9052A3F13C3B98D /* KsApiTests.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = KsApiTests.xccache;
 		};
 		A1DE4377929143857C8B097A /* Library-iOSTests.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Library-iOSTests.xccache";
 		};
 		B99A089743F01A01FF3C6DC6 /* Library-Keychain-iOSTests.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = "Library-Keychain-iOSTests.xccache";
 		};
 		D543EF7280690D783435854C /* KsApi.xccache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/umbrella" */;
+			package = 7BB573A861739D385B7AB889 /* XCLocalSwiftPackageReference "xccache/packages/proxy" */;
 			productName = KsApi.xccache;
 		};
 /* End XCSwiftPackageProductDependency section */

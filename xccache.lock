@@ -2,24 +2,10 @@
   "Kickstarter.xcodeproj": {
     "packages": [
       {
-        "repositoryURL": "https://github.com/apollographql/apollo-ios.git",
-        "requirement": {
-          "kind": "exactVersion",
-          "version": "0.44.0"
-        }
-      },
-      {
-        "repositoryURL": "https://github.com/kickstarter/Kickstarter-Prelude.git",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios.git",
         "requirement": {
           "kind": "upToNextMajorVersion",
-          "minimumVersion": "1.0.0"
-        }
-      },
-      {
-        "repositoryURL": "https://github.com/stripe/stripe-ios",
-        "requirement": {
-          "kind": "upToNextMajorVersion",
-          "minimumVersion": "23.10.0"
+          "minimumVersion": "4.5.1"
         }
       },
       {
@@ -30,17 +16,17 @@
         }
       },
       {
-        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "repositoryURL": "https://github.com/apollographql/apollo-ios.git",
         "requirement": {
-          "kind": "upToNextMajorVersion",
-          "minimumVersion": "7.10.0"
+          "kind": "exactVersion",
+          "version": "0.44.0"
         }
       },
       {
-        "repositoryURL": "https://github.com/scinfu/SwiftSoup",
+        "repositoryURL": "https://github.com/Appboy/appboy-segment-ios",
         "requirement": {
           "kind": "upToNextMajorVersion",
-          "minimumVersion": "2.4.3"
+          "minimumVersion": "4.0.0"
         }
       },
       {
@@ -58,10 +44,24 @@
         }
       },
       {
+        "repositoryURL": "https://github.com/kickstarter/Kickstarter-Prelude.git",
+        "requirement": {
+          "kind": "upToNextMajorVersion",
+          "minimumVersion": "1.0.0"
+        }
+      },
+      {
         "repositoryURL": "https://github.com/kickstarter/Kickstarter-ReactiveExtensions",
         "requirement": {
           "kind": "upToNextMajorVersion",
           "minimumVersion": "2.0.0"
+        }
+      },
+      {
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "requirement": {
+          "kind": "upToNextMajorVersion",
+          "minimumVersion": "7.10.0"
         }
       },
       {
@@ -72,10 +72,17 @@
         }
       },
       {
-        "repositoryURL": "https://github.com/Appboy/appboy-segment-ios",
+        "repositoryURL": "https://github.com/scinfu/SwiftSoup",
         "requirement": {
           "kind": "upToNextMajorVersion",
-          "minimumVersion": "4.0.0"
+          "minimumVersion": "2.4.3"
+        }
+      },
+      {
+        "repositoryURL": "https://github.com/stripe/stripe-ios",
+        "requirement": {
+          "kind": "upToNextMajorVersion",
+          "minimumVersion": "23.10.0"
         }
       },
       {
@@ -84,36 +91,29 @@
           "kind": "upToNextMajorVersion",
           "minimumVersion": "1.6.0"
         }
-      },
-      {
-        "repositoryURL": "https://github.com/airbnb/lottie-ios.git",
-        "requirement": {
-          "kind": "upToNextMajorVersion",
-          "minimumVersion": "4.5.1"
-        }
       }
     ],
     "dependencies": {
       "Kickstarter-iOS": [
-        "Kickstarter-Prelude/Prelude",
-        "appboy-segment-ios/AppboySegment"
+        "appboy-segment-ios/AppboySegment",
+        "Kickstarter-Prelude/Prelude"
       ],
       "Library-iOS": [
-        "Kickstarter-Prelude/Prelude_UIKit",
         "AlamofireImage/AlamofireImage",
-        "Kingfisher/Kingfisher",
+        "appboy-segment-ios/AppboySegment",
         "facebook-ios-sdk/FacebookCore",
         "facebook-ios-sdk/FacebookLogin",
-        "appboy-segment-ios/AppboySegment",
+        "firebase-ios-sdk/FirebaseAnalytics",
         "firebase-ios-sdk/FirebaseCrashlytics",
         "firebase-ios-sdk/FirebasePerformance",
-        "firebase-ios-sdk/FirebaseAnalytics",
         "firebase-ios-sdk/FirebaseRemoteConfig",
-        "stripe-ios/Stripe",
-        "stripe-ios/StripePaymentSheet",
         "Kickstarter-Prelude/Prelude",
+        "Kickstarter-Prelude/Prelude_UIKit",
+        "Kingfisher/Kingfisher",
         "KingfisherWebP/KingfisherWebP",
-        "lottie-ios/Lottie"
+        "lottie-ios/Lottie",
+        "stripe-ios/Stripe",
+        "stripe-ios/StripePaymentSheet"
       ],
       "Library-iOSTests": [
         "Kickstarter-ReactiveExtensions/ReactiveExtensions-TestHelpers",
@@ -134,8 +134,8 @@
         "apollo-ios/ApolloAPI",
         "apollo-ios/ApolloUtils",
         "Kickstarter-Prelude/Prelude",
-        "SwiftSoup/SwiftSoup",
-        "Kickstarter-ReactiveExtensions/ReactiveExtensions"
+        "Kickstarter-ReactiveExtensions/ReactiveExtensions",
+        "SwiftSoup/SwiftSoup"
       ],
       "KsApiTests": [
 
@@ -143,6 +143,9 @@
       "RichPushNotifications": [
 
       ]
+    },
+    "platforms": {
+      "ios": "16.0"
     }
   }
 }

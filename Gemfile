@@ -10,7 +10,8 @@ gem 'fastlane'
 gem 'xcode-install'
 gem 'json'
 gem 'plist'
-gem 'xccache'
+gem 'xccache', '1.0.0.rc15341775774'
+gem 'pry'
 
 plugins_path = File.join(File.dirname(__FILE__), '.fastlane', 'Pluginfile')
 eval_gemfile(plugins_path) if File.exist?(plugins_path)
